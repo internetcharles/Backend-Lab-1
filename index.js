@@ -9,10 +9,9 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 
 app.get('/', (req, res) => {
+    console.log('anything');
     res.json({
-        formatted_query: 'Seattle, WA, USA',
-        latitude: '47.606210',
-        longitude: '-122.332071',
+        hello: 'location'
     });
 });
 
