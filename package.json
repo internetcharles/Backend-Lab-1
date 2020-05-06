@@ -17,5 +17,13 @@
   },
   "devDependencies": {},
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/internetcharles/Backend-Lab-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/internetcharles/Backend-Lab-1/issues"
+  },
+  "homepage": "https://github.com/internetcharles/Backend-Lab-1#readme",
   "description": ""
 }
