@@ -1,12 +1,14 @@
 // import express from 'express';
-const express = require('express');
+const dotenv = require('dotenv');
+
 dotenv.config();
 const cors = require('cors');
-
-
-const PORT = process.env.PORT || 3001;
+const express = require('express');
 
 const app = express();
+const PORT = process.env.PORT || 3001;
+
+app.use(cors());
 
 app.get('/', (req, res) => {
     console.log('anything');
