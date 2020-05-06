@@ -1,10 +1,14 @@
 // import express from 'express';
 const express = require('express');
+dotenv.config();
+const cors = require('cors');
 
-const app = express();
+
 const PORT = process.env.PORT || 3001;
 
-app.get('/location', (req, res) => {
+const app = express();
+
+app.get('/', (req, res) => {
     res.json({
         formatted_query: 'Seattle, WA, USA',
         latitude: '47.606210',
